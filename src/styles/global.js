@@ -6,7 +6,8 @@ const GlobalStyles = createGlobalStyle`
         --background: #2f3640;
         --white: #dcdde1;
         
-        --nav-size: 5rem;         
+        --nav-size: 5rem;        
+        --nav-top-size: 3rem; 
     }
 
     * {
@@ -33,7 +34,7 @@ const GlobalStyles = createGlobalStyle`
             top: 0;
             left: 0;    
             overflow-x: hidden;
-            padding-top: 20px;       
+            /* padding-top: 20px;        */
             box-shadow: 3px 0px 10px 1px #14171b;                
         }
 
@@ -50,7 +51,7 @@ const GlobalStyles = createGlobalStyle`
         @media (max-width: 40.625rem) {
             nav {
                 width: 100%;
-                height: var(--nav-size);
+                height: var(--nav-top-size);
                 padding-left: 20px;
                 box-shadow: 0px 3px 10px 1px #14171b;     
                 overflow-y: hidden;           
