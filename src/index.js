@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyles from './styles/global';
-import { HealthPage } from './Pages/health';
 import { SideBar } from './Components/SideBar';
+import { HomePage } from './Pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyles />
     <SideBar />
-    <HealthPage />
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
