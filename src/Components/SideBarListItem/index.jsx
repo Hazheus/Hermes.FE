@@ -3,7 +3,7 @@ import { Search, Star, Navicon, Gear, Exclamation } from "@styled-icons/evil";
 import React from "react";
 
 export const SideBarListItem = (props) => {
-    const { description, icon } = props;
+    const { icon } = props;
     const icons = {
         search: Search,
         favorite: Star,
