@@ -4,7 +4,7 @@ import * as S from "./style";
 export const HomePage = () => {
     return (
         <S.Container>
-            <BackgroundStars quantity={200} />
+            <BackgroundStars quantity={199} />
         </S.Container>
     )
 }

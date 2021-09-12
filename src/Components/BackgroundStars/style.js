@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const Star = styled.div`
+export const Star = styled.span`
     transform: translate(${props => props.x}px, ${props => props.y}px);
     position: absolute;
     border: 1px solid white;
