@@ -4,8 +4,7 @@ const GlobalStyles = createGlobalStyle`
     :root {
         --highlight: #e20e8d;
         --background: #2f3640;
-        --white: #dcdde1;
-        
+        --white: #dcdde1;        
         --nav-size: 5rem;        
         --nav-top-size: 3rem; 
     }
@@ -61,7 +60,7 @@ const GlobalStyles = createGlobalStyle`
                 margin-top: var(--nav-size);
                 margin-left: 0px;
                 width:  100%;
-                height: 100%auto;
+                height: 100% auto;
                 overflow-x: hidden;
             }
         }

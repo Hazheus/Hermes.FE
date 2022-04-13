@@ -1,6 +1,5 @@
 import * as S from "./style";
 import { Search, Star, Navicon, Gear, Exclamation } from "@styled-icons/evil";
-import React from "react";
 
 export const SideBarListItem = (props) => {
     const { icon } = props;
